@@ -1,0 +1,6 @@
+# Judge arguments
+provider_type: "local" # Options: local, api
+judge_model_name: "nuojohnchen/JudgeLRM-7B" # Options:Qwen/Qwen2.5-7B-Instruct, nuojohnchen/JudgeLRM-7B
+# criteria: "approval" # Options: approval, signature,
+judge_model_device: "cuda:0"
+api_url: http://localhost:8008

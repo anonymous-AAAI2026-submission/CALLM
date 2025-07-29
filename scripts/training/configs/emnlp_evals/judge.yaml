@@ -1,0 +1,21 @@
+# Model arguments
+model_name_or_path: Qwen/Qwen2.5-3B-Instruct
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+bf16: true
+tf32: true
+output_dir: OUTPUT_DIR
+
+# Dataset arguments
+dataset_id_or_path: mila-ai4h/AIMS.au
+class_of_interest: Approval # Or Signature, C2 (operations) etc.
+
+eval_mode: True
+project_name: PROJECT_NAME
+use_judge: true
+
+# Evaluation arguments
+seed: 42
+max_prompt_length: 4000
+max_completion_length: 1000
