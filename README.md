@@ -1,5 +1,6 @@
-# 🧾 Judging by the Rules: Compliance-Aligned Framework for \\ Modern Slavery Statement Monitoring
+# 🧾 Judging by the Rules: Compliance-Aligned Framework for <br> Modern Slavery Statement Monitoring
 
+![CALLM](./img/CALLM.png)
 
 Modern slavery affects millions of people worldwide, and regulatory frameworks such as Modern Slavery Acts now require companies to publish detailed disclosures. However, these statements are often vague and inconsistent, making manual review very slow. NLP offers a promising path forward, but high-stakes compliance tasks require more than accurate classification. They demand transparent, rule-aligned outputs that legal experts can verify. Existing applications of large language models (LLMs)  often reduce complex regulatory assessments to binary decisions, lacking the structure needed for robust legal scrutiny.
 
