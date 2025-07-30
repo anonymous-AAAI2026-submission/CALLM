@@ -1,12 +1,11 @@
-# 🧾 Judging by the Rules: Reward-Aligned Reasoning for
+# 🧾 Judging by the Rules: Compliance-Aligned Framework for \\ Modern Slavery Statement Monitoring
 
-### Modern Slavery Statement Compliance Monitoring
 
-Modern slavery remains a pervasive global issue, and NLP offers substantial potential to support regulatory compliance efforts. However, high-stakes compliance tasks require more than accurate classification—they demand transparent, interpretable reasoning to foster trust and ensure accountability. While recent work has applied large language models (LLMs) to compliance classification, these approaches often reduce complex regulatory assessments to binary decisions, lacking the structured reasoning needed for robust legal scrutiny.
+Modern slavery affects millions of people worldwide, and regulatory frameworks such as Modern Slavery Acts now require companies to publish detailed disclosures. However, these statements are often vague and inconsistent, making manual review very slow. NLP offers a promising path forward, but high-stakes compliance tasks require more than accurate classification. They demand transparent, rule-aligned outputs that legal experts can verify. Existing applications of large language models (LLMs)  often reduce complex regulatory assessments to binary decisions, lacking the structure needed for robust legal scrutiny.
 
-We argue that compliance verification is inherently a reasoning problem: it involves evaluating whether textual statements adhere to well-defined regulatory rules. In this work, we propose a novel framework for aligning model reasoning with domain-specific compliance criteria in the context of modern slavery reporting.
+We argue that compliance verification is fundamentally a rule-matching problem: it involves evaluating whether textual statements adhere to well-defined regulatory rules. To address this, we propose a novel framework for aligning model outputs with domain-specific compliance criteria.
 
-At the core of our approach is the **Compliance Alignment Judge (CA-Judge)**, which evaluates model-generated justifications based on their fidelity to legal requirements. Building on this, we introduce **Compliance Alignment LLM (CALLM)**—a model fine-tuned to produce rule-consistent, interpretable reasoning. CALLM achieves improved predictive performance while delivering outputs that are both transparent and aligned with legal standards, offering a more reliable and adoptable solution for real-world compliance analysis.
+At its core is the **Compliance Alignment Judge (CA-Judge)**, which evaluates model-generated justifications based on their fidelity to legal requirements.  Using this feedback, we train **Compliance Alignment LLM (CALLM)**, a model that produces rule-consistent, human-verifiable outputs. CALLM achieves improved predictive performance and generates outputs that are both transparent and aligned with legal standards, offering a more verifiable and actionable solution for real-world compliance analysis.
 
 ---
 
