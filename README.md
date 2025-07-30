@@ -1,4 +1,4 @@
-# 🧾 Judging by the Rules: Compliance-Aligned Framework for <br> Modern Slavery Statement Monitoring
+# 🧾 Judging by the Rules: Compliance-Aligned Framework for Modern Slavery Statement Monitoring
 
 ![CALLM](./img/CALLM.png)
 
