@@ -18,6 +18,6 @@ cd training
 
 CUDA_VISIBLE_DEVICES=1 trl vllm-serve --model Qwen/Qwen2.5-3B-Instruct --tensor_parallel_size 1 &
 
-CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 --main_process_port 29503 --config_file configs/deepspeed_zero3.yaml train.py --config configs/emnlp_experiments/basic.yaml
+CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 --main_process_port 29503 --config_file configs/deepspeed_zero3.yaml train.py --config configs/aaai_experiments/basic.yaml
 
 echo "All Python scripts finished."
