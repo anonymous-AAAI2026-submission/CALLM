@@ -22,6 +22,6 @@ CUDA_VISIBLE_DEVICES=2 trl vllm-serve --model Qwen/Qwen2.5-3B-Instruct --tensor_
 
 CUDA_VISIBLE_DEVICES=1 python llm_judge_server.py --config configs/llmjudge_config.yaml --port 8009 &
 
-CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 --main_process_port 29503 --config_file configs/deepspeed_zero3.yaml train.py --config configs/emnlp_experiments/judge.yaml
+CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 --main_process_port 29503 --config_file configs/deepspeed_zero3.yaml train.py --config configs/aaai_experiments/judge.yaml
 
 echo "All Python scripts finished."
