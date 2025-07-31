@@ -13,6 +13,6 @@ export GOOGLE_API_KEY=""
 conda activate llm_env
 cd training
 
-python test.py --config configs/emnlp_evals/basic.yaml
+python test.py --config configs/aaai_evals/basic.yaml
 
 echo "All Python scripts finished."
